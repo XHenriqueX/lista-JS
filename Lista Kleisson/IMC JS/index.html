@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/estilo.css">
+  <title>Calculadora-IMC</title>
+</head>
+
+<body>
+  <h1>Calculadora-IMC</h1>
+  <script src="JS/codigo.js"></script>
+  <input onfocus="clickNome()" id="nome" type="text" placeholder="Digite seu nome">
+  <br>
+  <input onfocus="clickAltura()" id="altura" type="number" placeholder="Digite sua Altura"><br>
+  <input onfocus="clickPeso()" id="peso" type="number" placeholder="Digite seu peso"><br>
+  <button onclick="imc(), resultado()" type="add" id="buttonImc">Calcular</button><br>
+  <textarea id="resultado" type="text"></textarea>
+
+</body>
+
+</html>

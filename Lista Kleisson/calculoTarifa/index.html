@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cálculo tarifa</title>
+</head>
+
+<body>
+  <form>
+    <label for="resposta">Você é estudante?</label>
+    <select id="estudante" name="resposta">
+      <option value="sim">Sim</option>
+      <option value="nao">Não</option>
+    </select>
+  </form>
+  <input onfocus="clickIdade()" id="idade" type="number" placeholder="Digite sua idade">
+  <button onclick="calcularTarifa()" id="calcularTarifa">Resultado</button>
+  <input id="resultado">
+  <script src="js/system.js"></script>
+</body>
+
+</html>
