@@ -1,86 +1,94 @@
-#nome {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  text-align: center;
-  font-size: 2rem;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  margin: 0 auto;
-
-}
-
-h1 {
-  align-items: center;
-  background-size: 10%;
+* {
+  box-sizing: border-box;
 }
 
 body {
   background: #ccc;
-  display: block;
-  flex-wrap: wrap;
-  text-align: center;
-  align-items: center;
-  /* border: 1px solid red; 
-  margin: auto auto;*/
 }
 
-#altura {
+h1 {
+  align-items: center;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+#linha1 {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  text-align: center;
+  margin: auto auto;
+}
+
+#c {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: auto auto;
   font-size: 2rem;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  margin: 0 auto;
+  margin-bottom: 1rem;
 }
 
-#peso {
+#linha4 {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  text-align: center;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  margin: auto auto;
+}
+
+#f {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: auto auto;
   font-size: 2rem;
-  margin: 0 auto;
-}
-
-#resultado {
-  text-align: center;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  font-size: 1rem;
-  height: 15rem;
-  width: 25rem;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  margin: 0 auto;
-  overflow-wrap: break-word;
-  overflow-wrap: break-word;
+  margin-bottom: 1rem;
 }
 
-#buttonImc {
-  color: aliceblue;
-  background: black;
+#linha2 {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  border-top-right-radius: 10px;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  text-align: center;
+  margin: auto auto;
+}
+
+#passarParaF {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: auto auto;
   font-size: 2rem;
-  margin: 0 auto;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+#linha3 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: auto auto;
+}
+
+#passarParaC {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: auto auto;
+  font-size: 2rem;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom: 1rem;
 }

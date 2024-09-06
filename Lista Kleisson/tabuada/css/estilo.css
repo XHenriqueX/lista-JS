@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  align-items: center;
+  font-size: 2rem;
+}
+
+body {
+  background: #ccc;
+  text-align: center;
+  align-items: center;
+}
+
+.linha {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: auto auto;
+  margin-bottom: 1rem;
+}
+
+#numero {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto auto;
+  text-align: center;
+  font-size: 2rem;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#tabuada {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto auto;
+  font-size: 2rem;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#resultado {
+  height: 15rem;
+  width: 25rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto auto;
+  font-size: 1rem;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}

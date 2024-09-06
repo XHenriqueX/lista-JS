@@ -4,31 +4,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/estilo.css">
   <title>Área e Perímetro retângulo</title>
-  <!-- <style>
-    .espaco-margem {
-      margin: 5px;
-    }
 
-    ;
-
-    .espaco-direita {
-      margin: 5px;
-      margin-right: 60px;
-    }
-
-    ;
-  </style> -->
 </head>
 
 <body>
+
+  <h1>Calcular Área e Perímetro</h1>
+
+  <div id="linha1">
+    <input onfocus="clickLargura()" id="largura" type="number" placeholder="Digite a largura">
+  </div>
+  <div id="linha2">
+    <input onfocus="clickComprimento()" id="comprimento" type="number" placeholder="Digite o comprimento"> <br>
+  </div>
+
+  <div id="linha3">
+    <button onclick="calcularArea()" id="area">Calcular Área</button>
+  </div>
+  <div id="linha4">
+    <button onclick="calcularPerimetro()" id="perimetro">Calcular Perímetro</button><br>
+  </div>
+  <div id="linha5">
+    <input id="resultadoArea" type="number" placeholder="Resultado da Área">
+  </div>
+  <div id="linha6"></div><input id="resultadoPerimetro" type="number" placeholder="Resultado do Perímetro">
+  </div>
   <script src="js/system.js"></script>
-  <input onfocus="clickLargura()" id="largura" type="number" placeholder="Digite a largura">
-  <input onfocus="clickComprimento()" id="comprimento" type="number" placeholder="Digite o comprimento"> <br>
-  <button style="margin: 5px; margin-right: 75px;" onclick="calcularArea()" id="area">Calcular Área</button>
-  <button onclick="calcularPerimetro()" id="area">Calcular Perímetro</button><br>
-  <input id="resultadoArea" type="number" placeholder="Resultado da Área">
-  <input id="resultadoPerimetro" type="number" placeholder="Resultado do Perímetro">
 </body>
 
 </html>

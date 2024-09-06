@@ -4,13 +4,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/estilo.css">
   <title>Faixa Etária</title>
 </head>
 
 <body>
-  <input onfocus="clickIdade()" id="idade" class="number" placeholder="Digite sua idade">
-  <button onclick="faixaEtaria()" id="faixaEtaria">Resultado</button>
-  <input id="resultado" class="text">
+  <div class="linha">
+    <h1>Faixa Etária</h1>
+  </div>
+  <div class="linha">
+    <input onfocus="clickIdade()" id="idade" class="number" placeholder="Digite sua idade">
+  </div>
+  <div class="linha">
+    <button onclick="faixaEtaria()" id="faixaEtaria">Resultado</button>
+  </div>
+  </div>
+  <div class="linha">
+    <input id="resultado" class="text">
+  </div>
 
   <script src="js/system.js"></script>
 </body>

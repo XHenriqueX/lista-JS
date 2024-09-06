@@ -46,6 +46,9 @@ function subtracao(){
 function divisao(){
   document.getElementById('tela').value += "/"
 }
+function porCento(){
+  document.getElementById('tela').value += "/100"
+}
 function virgula(){
   document.getElementById('tela').value += "."
 }

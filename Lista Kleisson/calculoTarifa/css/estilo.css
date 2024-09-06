@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #ccc;
+}
+
+h1 {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  text-align: center;
+  margin: auto auto;
+  font-size: 2rem;
+}
+
+.linha {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  text-align: center;
+  margin: auto auto;
+  margin-bottom: 1rem;
+}
+
+#idade {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  text-align: center;
+  margin: auto auto;
+  font-size: 2rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#calcularTarifa {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  text-align: center;
+  margin: auto auto;
+  font-size: 2rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#resultado {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  text-align: center;
+  margin: auto auto;
+  font-size: 2rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#estudante {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  text-align: center;
+  margin-right: auto;
+  font-size: 2rem;
+}
+
+#resposta {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  text-align: center;
+  margin-left: auto;
+  font-size: 2rem;
+}

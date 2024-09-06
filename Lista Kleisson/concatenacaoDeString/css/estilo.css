@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #ccc;
+}
+
+.linha {
+  display: flex;
+  flex-flow: row wrap;
+  margin: auto auto;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  display: flex;
+  flex-flow: row wrap;
+  margin: auto auto;
+  align-items: center;
+  font-size: 2rem;
+}
+
+#name {
+  display: flex;
+  flex-flow: row wrap;
+  margin: auto auto;
+  align-items: center;
+  font-size: 2rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#age {
+  display: flex;
+  flex-flow: row wrap;
+  margin: auto auto;
+  align-items: center;
+  font-size: 2rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#city {
+  display: flex;
+  flex-flow: row wrap;
+  margin: auto auto;
+  align-items: center;
+  font-size: 2rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#store {
+  display: flex;
+  flex-flow: row wrap;
+  margin: auto auto;
+  align-items: center;
+  font-size: 2rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}

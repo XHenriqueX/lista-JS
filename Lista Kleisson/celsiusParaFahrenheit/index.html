@@ -4,14 +4,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Trasformador de Temperatura</title>
+  <link rel="stylesheet" href="css/estilo.css">
+  <title>Transformador de Temperatura</title>
 </head>
 
 <body>
-  <input onfocus="clickC()" id="c" type="number" placeholder="Temperatura em °C "> <br><br>
-  <button onclick="passarParaF()" id="passarParaF">Passar para °F</button>
-  <button onclick="passarParaC()" id="passarParaC">Passar para °C</button> <br> <br>
-  <input onfocus="clickF()" id="f" type="number" placeholder="Temperatura em °F ">
+  <h1>Transformador de Temperatura</h1>
+  <div id="linha1">
+    <input onfocus="clickC()" id="c" type="number" placeholder="Temperatura em °C "> <br><br>
+  </div>
+  <div id="linha2">
+    <button onclick="passarParaF()" id="passarParaF">Passar para °F</button>
+  </div>
+  <div id="linha3">
+    <button onclick="passarParaC()" id="passarParaC">Passar para °C</button> <br> <br>
+  </div>
+  <div id="linha4">
+    <input onfocus="clickF()" id="f" type="number" placeholder="Temperatura em °F ">
+  </div>
   <script src="js/controle.js"></script>
 </body>
 

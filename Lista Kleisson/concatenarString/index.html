@@ -4,14 +4,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/estilo.css">
   <title>Concatenar String</title>
 </head>
 
 <body>
-  <input id="nome1" type="text" placeholder="Digite o 1° nome">
-  <input id="nome2" type="text" placeholder="Digite o 2° nome">
-  <button onclick="juntar()" id="juntar">Concatenar</button>
-  <input id="resultado" type="text">
+  <div class="linha">
+    <h1>Concatenar String</h1>
+  </div>
+  <div class="linha">
+    <input id="nome1" type="text" placeholder="Digite o 1° nome">
+  </div>
+  <div class="linha">
+    <input id="nome2" type="text" placeholder="Digite o 2° nome">
+  </div>
+  <div class="linha">
+    <button onclick="juntar()" id="juntar">Concatenar</button>
+  </div>
+  <div class="linha">
+    <textarea id="resultado" type="text"></textarea>
+  </div>
 
   <script src="js/system.js"></script>
 </body>

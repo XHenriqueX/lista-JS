@@ -4,13 +4,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/estilo.css">
   <title>tabuada</title>
 </head>
 
 <body>
-  <input id="numero" type="number" placeholder="Digite o número"> <br>
-  <button onclick="tabuada()" id="tabuada">Calcular</button> <br>
-  <textarea id="resultado"></textarea>
+
+  <h1>Tabuada</h1>
+
+  <div id="linha1" class="linha">
+    <input id="numero" type="number" placeholder="Digite o número">
+  </div>
+  <div id="linha2" class="linha">
+    <button onclick="tabuada()" id="tabuada">Calcular</button>
+  </div>
+  <div id="linha3" class="linha">
+    <textarea id="resultado">Tabuada do número selecionado</textarea>
+  </div>
 
   <script src="js/system.js"></script>
 </body>

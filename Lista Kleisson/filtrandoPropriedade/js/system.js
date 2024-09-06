@@ -5,17 +5,18 @@ let pessoa = {
     salario: 5000
 };
 
-function filtrarPropriedades(obj, criterio) {
-    let novoObj = {};
-    for (let chave in obj) {
-        if (obj.hasOwnProperty(chave) && criterio(obj[chave], chave)) {
-            novoObj[chave] = obj[chave];
-        }
-    }
-    return novoObj;
+function enter() {
+    let in1 = document.getElementById("nome").value;
+    let in2 = document.getElementById("idade").value;
+    let in3 = document.getElementById("profissao").value;
+    let in4 = document.getElementById("salario").value;
+    let novoObj = {
+        nome: in1,
+        idade: in2,
+        profissao: in3,
+        salario: in4
+    };
+    let criterio = document.getElementById("criterio").value;
+    document.getElementById("resultado").value = novoObj
 }
 
-// Teste: Filtrar propriedades onde o valor é maior que 1000
-let propriedadesMaiorQue1000 = filtrarPropriedades(pessoa, (valor) => valor > 1000);
-console.log(propriedadesMaiorQue1000);  
-// Saída: { salario: 5000 }

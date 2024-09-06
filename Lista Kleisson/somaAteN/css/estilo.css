@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+body {
+  background: #ccc;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: auto auto;
+}
+
+.linha {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: auto auto;
+  margin-bottom: 1rem;
+}

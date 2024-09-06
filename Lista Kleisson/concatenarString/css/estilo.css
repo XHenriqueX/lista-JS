@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+.linha {
+  display: flex;
+  flex-flow: row wrap;
+  margin: auto auto;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+body {
+  background: #ccc;
+}
+
+h1 {
+  display: flex;
+  flex-flow: row wrap;
+  margin: auto auto;
+  align-items: center;
+  font-size: 2rem;
+  text-align: center;
+}
+
+#nome1 {
+  display: flex;
+  flex-flow: row wrap;
+  margin: auto auto;
+  align-items: center;
+  font-size: 2rem;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#nome2 {
+  display: flex;
+  flex-flow: row wrap;
+  margin: auto auto;
+  align-items: center;
+  font-size: 2rem;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#juntar {
+  display: flex;
+  flex-flow: row wrap;
+  margin: auto auto;
+  align-items: center;
+  font-size: 2rem;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#resultado {
+  display: flex;
+  flex-flow: row wrap;
+  margin: auto auto;
+  align-items: center;
+  font-size: 2rem;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}

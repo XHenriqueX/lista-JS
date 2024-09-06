@@ -4,13 +4,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/estilo.css">
   <title>Soma de 1 até N</title>
 </head>
 
 <body>
-  <input onfocus="click()" id="escolhaNumero" type="number" placeholder="Digite o número"><br>
-  <button onclick="enter()" id="enter">Enter</button><br>
-  <textarea id="resultado"></textarea>
+  <h1>Soma de 1 até N</h1> <br>
+
+  <div id="linha1" class="linha">
+    <input onfocus="click()" id="escolhaNumero" type="number" placeholder="Digite o número"><br>
+  </div>
+  <div id="linha2" class="linha">
+    <button onclick="enter()" id="enter">Enter</button><br>
+  </div>
+  <div id="linha3" class="linha">
+    <textarea id="resultado"></textarea>
+  </div>
   <script src="js/system.js"></script>
 </body>
 

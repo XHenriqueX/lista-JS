@@ -4,20 +4,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/estilo.css">
   <title>Cálculo tarifa</title>
 </head>
 
 <body>
+  <div class="linha">
+    <h1>Cálculo Tarifa</h1>
+  </div>
+
   <form>
-    <label for="resposta">Você é estudante?</label>
-    <select id="estudante" name="resposta">
-      <option value="sim">Sim</option>
-      <option value="nao">Não</option>
-    </select>
+    <div class="linha">
+      <label id="resposta" for="resposta">Você é estudante?</label>
+      <select id="estudante" name="resposta">
+        <option value="sim">Sim</option>
+        <option value="nao">Não</option>
+      </select>
   </form>
-  <input onfocus="clickIdade()" id="idade" type="number" placeholder="Digite sua idade">
-  <button onclick="calcularTarifa()" id="calcularTarifa">Resultado</button>
-  <input id="resultado">
+  </div>
+  <div class="linha">
+    <input onfocus="clickIdade()" id="idade" type="number" placeholder="Digite sua idade">
+  </div>
+  <div class="linha">
+    <button onclick="calcularTarifa()" id="calcularTarifa">Resultado</button>
+  </div>
+  <div class="linha">
+    <input id="resultado">
+  </div>
   <script src="js/system.js"></script>
 </body>
 

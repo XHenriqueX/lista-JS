@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  width: 90%;
+  /* border: 1px solid red; */
+  margin: auto auto;
+  background: #ccc;
+}
+
+.visor {
+  text-align: center;
+  height: 120px;
+  width: 100%;
+}
+
+#tela {
+  border-left: 1rem solid black;
+  border-right: 1rem solid black;
+  border-top: 1rem solid black;
+  text-align: right;
+  font-size: 3rem;
+  height: 120px;
+  width: 43rem;
+}
+
+.botao1 {
+  flex-flow: row wrap;
+  /* display: flex; */
+  align-items: center;
+  border-left: 1rem solid black;
+  border-right: 1rem solid black;
+}
+
+.botao2 {
+  flex-flow: row wrap;
+  /* display: flex; */
+  align-items: center;
+  border-left: 1rem solid black;
+  border-right: 1rem solid black;
+}
+
+.botao3 {
+  flex-flow: row wrap;
+  /* display: flex; */
+  align-items: center;
+  border-left: 1rem solid black;
+  border-right: 1rem solid black;
+}
+
+.botao4 {
+  flex-flow: row wrap;
+  /* display: flex; */
+  align-items: center;
+  border-left: 1rem solid black;
+  border-right: 1rem solid black;
+  border-bottom: 1rem solid black;
+}
+
+button {
+  text-align: center;
+  font-size: 3rem;
+  height: 8rem;
+  width: 8rem;
+}

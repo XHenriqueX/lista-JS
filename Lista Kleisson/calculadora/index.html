@@ -4,29 +4,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/estilo.css">
   <title>Calculadora</title>
 </head>
 
 <body>
-  <input id="tela"><br>
-  <button onclick="sete()" id="7">7</button>
-  <button onclick="oito()" id="8">8</button>
-  <button onclick="nove()" id="9">9</button>
-  <button onclick="adicao()" id="adicao">+</button>
-  <button onclick="multiplicacao()" id="multiplicaca">x</button>
-  <button onclick="ac()" id="ac">AC</button><br>
-  <button onclick="quatro()" id="4">4</button>
-  <button onclick="cinco()" id="5">5</button>
-  <button onclick="seis()" id="6">6</button>
-  <button onclick="subtracao()" id="subtracao">-</button>
-  <button onclick="divisao()" id="divisao">/</button><br>
-  <button onclick="um()" id="1">1</button>
-  <button onclick="dois()" id="2">2</button>
-  <button onclick="tres()" id="3">3</button>
-  <button onclick="virgula()" id="virgula">.</button>
-  <button onclick="igual()" id="igual">=</button><br>
-  <button onclick="zero()" id="0">0</button>
+
+  <div class="visor"> <input id="tela"></div>
+
+  <div class="botao1"><button onclick="sete()" id="7">7</button>
+    <button onclick="oito()" id="8">8</button>
+    <button onclick="nove()" id="9">9</button>
+    <button onclick="adicao()" id="adicao">+</button>
+    <button onclick="ac()" id="ac">AC</button><br>
+  </div>
+
+
+  <div class="botao2"><button onclick="quatro()" id="4">4</button>
+    <button onclick="cinco()" id="5">5</button>
+    <button onclick="seis()" id="6">6</button>
+    <button onclick="multiplicacao()" id="multiplicaca">x</button>
+    <button onclick="virgula()" id="virgula">.</button><br>
+  </div>
+
+
+  <div class="botao3"><button onclick="um()" id="1">1</button>
+    <button onclick="dois()" id="2">2</button>
+    <button onclick="tres()" id="3">3</button>
+    <button onclick="subtracao()" id="subtracao">-</button>
+    <button onclick="porCento()" id="porCento">%</button><br>
+  </div>
+
+
+  <div class="botao4"><button class="vazio">°</button>
+    <button onclick="zero()" id="0">0</button>
+    <button class="vazio">°</button>
+    <button onclick="divisao()" id="divisao">/</button>
+    <button onclick="igual()" id="igual">=</button>
+  </div>
   <script src="js/system.js"></script>
+  </div>
 </body>
 
 </html>
