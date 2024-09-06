@@ -22,25 +22,56 @@ h1 {
   font-size: 2rem;
 }
 
-#resposta {
+#numX {
   display: flex;
   flex-flow: row wrap;
+  margin: auto auto;
   align-items: center;
-  text-align: center;
+  font-size: 2rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#numY {
+  display: flex;
+  flex-flow: row wrap;
+  margin: auto auto;
+  align-items: center;
+  font-size: 2rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+
+#comparacaoMax {
+  display: flex;
+  flex-flow: row wrap;
   margin-left: auto;
+  align-items: center;
   font-size: 2rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
-#criterio {
+#comparacaoMin {
   display: flex;
   flex-flow: row wrap;
-  align-items: center;
-  text-align: center;
   margin-right: auto;
+  align-items: center;
   font-size: 2rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
-#enter {
+#resultadoMax {
   display: flex;
   flex-flow: row wrap;
   margin: auto auto;
@@ -52,7 +83,7 @@ h1 {
   border-bottom-right-radius: 10px;
 }
 
-#resultado {
+#resultadoMin {
   display: flex;
   flex-flow: row wrap;
   margin: auto auto;
@@ -63,52 +94,3 @@ h1 {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
-
-#nome {
-  display: flex;
-  flex-flow: row wrap;
-  margin: auto auto;
-  align-items: center;
-  font-size: 2rem;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
-
-#idade {
-  display: flex;
-  flex-flow: row wrap;
-  margin: auto auto;
-  align-items: center;
-  font-size: 2rem;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
-
-#profissao {
-  display: flex;
-  flex-flow: row wrap;
-  margin: auto auto;
-  align-items: center;
-  font-size: 2rem;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
-
-#salario {
-  display: flex;
-  flex-flow: row wrap;
-  margin: auto auto;
-  align-items: center;
-  font-size: 2rem;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
-

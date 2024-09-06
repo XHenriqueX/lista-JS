@@ -27,8 +27,16 @@
   <div class="linha">
     <button onclick="enter()" id="enter">resultado</button>
   </div>
-  <div class="linha">
-    <input id="criterio" type="text" placeholder="Digite seu Critério">
+  <form>
+    <div class="linha">
+      <label id="resposta" for="resposta">Critério:</label>
+      <select id="criterio" name="resposta">
+        <option value="nome">Nome</option>
+        <option value="idade">Idade</option>
+        <option value="profissao">Profissão</option>
+        <option value="salario">Salário</option>
+      </select>
+  </form>
   </div>
   <div class="linha">
     <textarea id="resultado"></textarea>

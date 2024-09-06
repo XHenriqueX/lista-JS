@@ -8,6 +8,6 @@ function enter() {
         salario: document.getElementById("salario").value
     };
     let criterio = document.getElementById("criterio").value;
-    console.log(novoObj.criterio)
+    document.getElementById("resultado").value = novoObj[criterio]
 }
 

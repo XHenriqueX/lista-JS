@@ -4,13 +4,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>numeroPrimo</title>
+  <link rel="stylesheet" href="css/estilo.css">
+  <title>Número Primo</title>
 </head>
 
 <body>
-  <input id="numero" type="number" placeholder="Digite o número">
-  <button onclick="listaPrimos()" id="listaPrimos">Calcular</button>
-  <textarea id="resultado"></textarea>
+  <div class="linha">
+    <h1>Número Primo</h1>
+  </div>
+  <div class="linha">
+    <input id="numero" type="number" placeholder="Digite o número">
+  </div>
+  <div class="linha">
+    <button onclick="listaPrimos()" id="listaPrimos">Calcular</button>
+  </div>
+  <div class="linha">
+    <textarea id="resultado"></textarea>
+  </div>
 
   <script src="js/system.js"></script>
 </body>
