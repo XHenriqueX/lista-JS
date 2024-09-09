@@ -1,19 +1,19 @@
-let objeto = {
-    a: 10,
-    b: 20,
-    c: 30
-};
 
 
-function somarPropriedades(obj) {
+
+function enter() {
+    let obj = {
+        a: parseFloat(document.getElementById("num1").value),
+        b: parseFloat(document.getElementById("num2").value),
+        c: parseFloat(document.getElementById("num3").value)
+    };
     let soma = 0;
     for (let chave in obj) {
         if (obj.hasOwnProperty(chave) && typeof obj[chave] === 'number') {
             soma += obj[chave];
         }
     }
-    return soma;
+    document.getElementById("resultado").value = soma;
 }
 
-// Teste
-console.log(somarPropriedades(objeto));  // Saída: 60
+

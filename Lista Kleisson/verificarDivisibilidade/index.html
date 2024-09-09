@@ -4,15 +4,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/estilo.css">
   <title>Verificar divisibilidade</title>
 </head>
 
 <body>
+  <div class="linha">
+    <h1>Verificar divisibilidade</h1>
+  </div>
+  <div class="linha">
+    <input onfocus="clickX()" id="x" type="number" placeholder="Digite Número X">
+  </div>
+  <div class="linha">
+    <input onfocus="clickY()" id="y" type="number" placeholder="Digite Número Y">
+  </div>
+  <div class="linha">
+    <button onclick="divisivel()" id="verificarDivisibilidade">Verificar</button>
+  </div>
+  <div class="linha">
+    <input id="resultado" placeholder="Resultado">
+  </div>
   <script src="js/system.js"></script>
-  <input onfocus="clickX()" id="x" type="number" placeholder="Digite Número X">
-  <input onfocus="clickY()" id="y" type="number" placeholder="Digite Número Y"><br>
-  <button onclick="divisivel()" id="verificarDivisibilidade">Verificar</button><br>
-  <input id="resultado" placeholder="Resultado">
 </body>
 
 </html>
